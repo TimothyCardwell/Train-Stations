@@ -1,0 +1,16 @@
+For this problem I used an adjacency list of stations and routes (vertices and edges). Questions 1 through 5 are easy to follow through, 
+since not much needs to be done to find those answers. 
+
+For question 6, I used a slightly modified version of Depth First Search and kept track of which stations could reach each other, and simply
+created a method to traverse paths until we found a full one.
+
+Questions 8 and 9 were fairly simple as well, using Dijkstra's algorithm allowed me to get the desired answers quickly.
+
+Finally, questions 7 and 10 were problematic for me since they require you to keep track of cycles in the dfs tree. I am confident that, if cycles weren't
+an option as a valid path, these questions would have been extremely easier, but since cycles were allowed, I was not able to implement the correct methods to solve them.
+
+
+If you wanted to test my code yourselves, just add another input.txt file into the trains package with whatever station and route information you want. The only requirement
+for this code is that it has the same form that was given to me; two letters followed by a number.
+
+All of the output is printed to the console or a text file name output.txt.
